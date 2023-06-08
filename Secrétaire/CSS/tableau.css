@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+section{
+   position: fixed;
+   height: 100vh;
+   margin-left: 250px;
+   margin-top: 100px;
+   transition: all .5 ease;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 15px;
+    font-size: 0.9em;
+    min-width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    border: 3px solid #FEC868;
+    position: fixed;
+}
+
+
+.content-table thead tr {
+    background-color: #B9F3FC; 
+    color: #2596be;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+.content-table td  button{
+    padding: 5px 10px;
+    background-color: #67c2e1;
+    border: none;
+    border-radius: 8px;
+}
+
+.form
+{
+    padding: 10px;
+    margin:10px;
+    width:100%;
+    display:inline-block;
+}
+
+input{
+    position:relative;
+    display:inline-block;
+    font-size:20px;
+    box-sizing: border-box;
+    transition:.5s;
+}
+
+.date
+{
+    background-color:#B9F3FC;
+    width:500px;
+    height:30px;
+    border:none;
+    outline:none;
+    padding: 0 25px;
+    border-radius: 5px;
+    color:#03001C;
+}
+
+input[type="submit"] , input[type="button"]
+{
+    position:relative;
+    border-radius: 5px;
+    height: 30px;
+    width:150px; 
+    color:#03001C;
+    font-weight: 500;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f3f3f3;
+}
+label{
+    margin:0 0 10px ;
+    padding:0;
+    font-size:24px;
+    color:#03001C;
+}
+
+.lien a{
+    text-decoration: none;
+    background-color: #FEC868;
+    border-radius: 10px;
+    color:white;
+    width: 150px;
+    font-size: 15px;
+    margin: 14px;
+    padding:5px;
+    text-align: center;
+}
+
+

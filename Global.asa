@@ -1,0 +1,8 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+Sub Application_OnStart()   
+	    Application("PC") = "Provider=SQLOLEDB;Data Source=127.0.0.1;Initial Catalog=GestionHopital;User ID=hopital;Password=hopital1"
+End Sub
+
+</SCRIPT>
+
+
