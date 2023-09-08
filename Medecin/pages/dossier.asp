@@ -143,8 +143,8 @@ body {
   <div class="col-right">
     <h3>Informations du médecin</h3>
     <hr>
-    <p>Nom du médecin: <%=rs("nomMedcin")%></p>
-    <p>Prénom du médecin: <%=rs("prenomMedcin")%></p>
+    <p>Nom du médecin:Chaanoune <%=rs("nomMedcin")%></p>
+    <p>Prénom du médecin:Noura <%=rs("prenomMedcin")%></p>
   </div>
 </div>
 

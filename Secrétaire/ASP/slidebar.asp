@@ -27,8 +27,8 @@
             <div class="menu">
 
                 <ul>
-                 <li> <i class="fa-solid fa-user-nurse"></i> Secrétaire</li>
-                  <li><a href="index.html"><i class="fa-solid fa-right-from-bracket"></i>Log out</a></li>
+                 
+                  <li><a href="/HOSPITALPROJECT"><i class="fa-solid fa-right-from-bracket"></i>Log out</a></li>
                     
                 </ul>
             </div>
@@ -43,6 +43,7 @@
                 <i class="fas fa-times" id="cancel"></i>
                 </label>
             </li>
+           
             <li>
                 <a href="patients.asp?idUnite=<%=Session("idUnite")%>"> 
                 <i class="fa-solid fa-hospital-user" height="100" width="100"></i>

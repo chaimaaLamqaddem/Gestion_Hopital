@@ -88,7 +88,10 @@
 		
 	</table>
 	
-	
+	 <ul>
+                 <li><a href="/HOSPITALPROJECT" target="_parent" ><i class="fa-solid fa-right-from-bracket"></i>Log out</a></li>
+                
+            </ul>
 	
 </div>
 

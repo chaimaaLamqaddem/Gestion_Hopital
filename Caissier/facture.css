@@ -220,3 +220,7 @@ hr{
 	border-style: inset;
 	border-width: 2px;
 }
+page-container {
+    display: flex;
+    justify-content: center;
+  }

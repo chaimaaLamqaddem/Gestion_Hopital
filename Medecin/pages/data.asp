@@ -41,6 +41,7 @@ End If
            
             margin-left: 100px;
             
+            
         }
 
         th , td{
@@ -80,7 +81,7 @@ End If
         </tbody>
         </table>
     </div>
-    <canvas id="myChart" width="200" height="100"></canvas>
+    <canvas id="myChart" width="200" height="100" backgroundColor="blue"></canvas>
 
     <script>
 
